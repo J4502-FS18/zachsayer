@@ -13,7 +13,12 @@ body{
   padding-bottom: 10px;
   width: 200px;
   background-color: #99ff99;
-text-align: center;
+  text-align: center;
   font-size: 48px;
   font-family: 'Roboto', sans-serif;
+}
+
+
+a {
+  text-decoration: none;
 }
