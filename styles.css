@@ -1,7 +1,6 @@
 body{
   font-size: 12px;
   font-family: 'Roboto', Helvetica, sans-serif;
-  color: white;
   text-align: center;
 }
 
@@ -18,33 +17,30 @@ h1{
 }
 
 .navbar{
-  font-size: 26px;
-  color: white;
-margin: 0 auto;
-text-align: center;
-  font-family: 'Roboto', Helvetica, sans-serif;
+padding: 0;
+list-style-type: none;
 }
 
 .navbar li{
-  color: white;
-margin: 0;
+  margin: 0;
 padding: 0;
 border-bottom: 1px solid #ccc;
-  list-style-type: none;
+  text-decoration: none;
 }
 
 .navbar a:link, a:visited {
+  display: block;
     color: #065599;
     background-color: white;
   font-weight: bold;
   text-align: center;
     text-decoration: none;
-    display: block;
     padding: 4px;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 .navbar a:hover a:active{
-  background-color: #7a991a;
+  background-color: tomato;
 }
 p{
   padding-left: 100px;
@@ -54,6 +50,9 @@ p{
 .footer a:link {
 text-decoration: none;
 background-color: white;
+text-align: center;
+display:block;
+padding: 4px;
 }
 
 h3{
