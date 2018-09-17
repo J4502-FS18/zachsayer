@@ -1,21 +1,64 @@
 body{
-  text-align: center;
   font-size: 12px;
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: bold;
-  color: #CC3300;
-  background-color: #ff6347
+  font-family: 'Roboto', Helvetica, sans-serif;
+  color: white;
+  text-align: center;
 }
 
+h1{
+  font-family: 'Monoton', Arial, sans-serif;
+  font-size: 72px;
+  background-color: #FFBDAE;
+  color: #065599;
+  text-align: center;
+}
 
-#navbar{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 10px
+#container{
+  background-color: #065599;
+}
+
+.navbar{
   font-size: 26px;
-  font-family: 'Roboto', sans-serif;
+  color: white;
+margin: 0 auto;
+text-align: center;
+  font-family: 'Roboto', Helvetica, sans-serif;
 }
-a {
-  text-decoration: none;
+
+.navbar li{
+  color: white;
+margin: 0;
+padding: 0;
+border-bottom: 1px solid #ccc;
+  list-style-type: none;
 }
+
+.navbar a:link, a:visited {
+    color: 065599;
+    background-color: white;
+  font-weight: bold;
+  text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 4px;
+}
+
+.navbar a:hover a:active{
+  background-color: #7a991a;
+}
+p{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footer{
+text-decoration: none;
+background-color: white;
+}
+
+h3{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/* Coriander color B29124 ; Tan color FFE9A3 ; Light yellow FFD54D
+Deep blue 4F5DB2 ; Light blue 9BAAFFbackground-color: #065599; */
