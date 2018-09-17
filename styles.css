@@ -34,7 +34,7 @@ border-bottom: 1px solid #ccc;
 }
 
 .navbar a:link, a:visited {
-    color: 065599;
+    color: #065599;
     background-color: white;
   font-weight: bold;
   text-align: center;
@@ -51,7 +51,7 @@ p{
   padding-right: 100px;
 }
 
-.footer{
+.footer a:link {
 text-decoration: none;
 background-color: white;
 }
