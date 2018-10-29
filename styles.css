@@ -8,6 +8,7 @@ h1{
   background-color: #FFBDAE;
   color: #065599;
   text-align: center;
+  max-width: 1000px;
 }
 
 h2{
@@ -99,6 +100,10 @@ a:link{
     "a a b b b"
     "d e b b b"
     "g h c c f"
+  }
+  h1{
+    margin: 20px auto;
+
   }
 h3{
   font-family: "Roboto", sans-serif;
