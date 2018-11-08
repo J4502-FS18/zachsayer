@@ -156,11 +156,14 @@ h3{
   text-align: center;
 }
 @media (max-width:600px){
-  .item9{
+/*  .item9{
     grid-area:i;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }*/
+  .item{
+    display:none;
   }
 }
 
